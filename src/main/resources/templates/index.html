@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>saikumarbandigi</title>
+    <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+    />
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 80vh;
+        margin: 0;
+        font-family: "Roboto", sans-serif;
+        background-color: #1a1a1a;
+        color: #ffffff;
+      }
+
+      .unique-h1 {
+        text-align: justify;
+        margin-bottom: 20px;
+        font-style: inherit; /* Changed to italic */
+        font-weight: 400; /* Changed to a bold variant */
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif; /* Changed font family */
+        color: gainsboro; /* Set your unique color for h1, e.g., magenta */
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+      }
+
+      li {
+        margin-bottom: 10px;
+      }
+
+      a {
+        text-decoration: none;
+        color: whitesmoke; /* Set default text color to black */
+        background-color: black; /* Set default background color to white */
+        display: inline-block;
+        padding: 15px 40px;
+        border-radius: 5px;
+        margin: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, color 0.3s ease; /* Add color transition */
+        border: 1px solid #ffffff;
+      }
+
+      a:hover {
+        background-color: whitesmoke; /* Change background color on hover */
+        color: black; /* Change text color on hover */
+      }
+
+      .profile-image {
+        width: 95px;
+        height: auto;
+        margin-bottom: 10px;
+        transform: perspective(600px) rotateY(20deg);
+      }
+    </style>
+</head>
+<body>
+<img
+        src="/static/images/sai.jpeg"
+        alt="Sai Kumar Bandigi"
+        class="profile-image"
+/>
+
+<h1 class="unique-h1">Saikumar Bandigi</h1>
+<p style="color: lightslategray">Embark on a journey with me</p>
+<ul>
+    <li>
+        <a
+                href="https://github.com/SaikumarBandigi"
+                target="_blank"
+                title="Visit GitHub"
+        >GitHub</a
+        >
+    </li>
+    <li>
+        <a
+                href="https://www.linkedin.com/in/saikumar-bandigi-071007133"
+                target="_blank"
+                title="Connect on LinkedIn"
+        >LinkedIn</a
+        >
+    </li>
+</ul>
+</body>
+</html>
